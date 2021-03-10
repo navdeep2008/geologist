@@ -19,6 +19,7 @@ function setup() {
 	ground = new Ground(200,530,2100,20);
 	hammer = new Hammer(200,200,100,50);
 	rubber = new Rubber(1000,2,100);
+	stone = new Stone(100,2,40,300);
 
 	Engine.run(engine);
   
@@ -32,6 +33,7 @@ function draw() {
   ground.display(); 
   hammer.display();
   rubber.display();
+  stone.display();
   
   drawSprites();
  
